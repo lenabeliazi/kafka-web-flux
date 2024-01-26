@@ -34,3 +34,5 @@ You can finally test the services using those three endpoints:
 (GET)http://localhost:8000/api/users/ -> to get a list of all the users
 (POST)http://localhost:8000/api/users/ -> to create a user (you must created a json body)
 (GET)http://localhost:8000/api/users/{userId}-> to get a specific user by id
+
+You can also take a loook at the UserControllerTest, which shows you how to use the WebTestClient annotation.
